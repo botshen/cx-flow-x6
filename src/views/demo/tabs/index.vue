@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a-tabs style="margin-top: 0" default-active-key="flow" tab-position="top" :destroy-inactive-tab-pane="true" size="small">
+    <a-tabs style="margin: 10px" default-active-key="flow" tab-position="top" :destroy-inactive-tab-pane="true" size="small">
       <a-tab-pane key="flow" tab="流程图">
         <flow />
       </a-tab-pane>
